@@ -237,7 +237,7 @@ function generatepass(plength) {
     for (i = 0; i < iterSize; i++) {
         randomNum = Math.floor(Math.random() * arraySize)
         string = words[randomNum]
-        passphrase += ' ' + string
+        passphrase += '-' + string
     }
     return passphrase
 }
